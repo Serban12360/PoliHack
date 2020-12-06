@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src='login.js'></script>
+<style>
+	body{
+		background-color:grey;
+	}
+	#fereastra{
+		border:1px solid black;
+		border-radius:5px;
+		height:500px;
+		width:400px;
+		margin-left:50%;
+		transform:translate(-50%);
+		margin-top:50px;
+		background-color:white;
+	}
+	#titlu{
+		text-align:center;
+		margin-top:20px;
+	}
+	#username, #parola{
+		margin-left:20px;
+		margin-top:10px;
+		font-size:18px;
+		margin-bottom:5px;
+	}
+	#usernameInput, #passwordInput{
+		width:90%;
+		margin-left:5%;
+		height:50px;
+		font-size: 18px;
+	}
+	#parola{
+		margin-top:10px;
+	}
+	#avatar{
+		height:150px;
+		width:150px;
+		border-radius:50%;
+		margin-left:50%;
+		transform:translate(-50%);
+		margin-top:20px;
+	}
+	.btn{
+		width:40%;
+		margin-top:20px;
+		margin-left:25px;
+	}
+	.btn:hover{
+		border:1px solid black;
+	}
+	#login{
+		background-color:lightgreen;
+	}
+	#cancel{
+		background-color:red;
+		color:white;
+	}
+	.ascuns{
+		display:none;
+	}
+</style>
+	
+
+
+</head>
+
+<body>
+	<div id='fereastra'>
+		<h2 id='titlu'>Log In</h2>
+		<img id='avatar' src='avatar.png'></img>
+		<div>
+			<p id='username'><b>Username</b></p>
+			<input id='usernameInput' type='text' name='username' placeholder='Username'></div>
+			<div>
+			<p id='parola'><b>Parola</b></p>
+			<input id='passwordInput' type='password' name='parola' placeholder='Parola'></div>
+		<button id='login' class='btn'>Log In</button>
+		<button id='cancel' class='btn' onclick="window.location.href='/'">Cancel</button>
+		</div>
+		
+	</div>
+
+
+	<script>
+</script>
+</body>
+
+</html>

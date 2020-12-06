@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" href="main.css">
+<link rel = "stylesheet" href="mystylePaint.css">
+<script src = "myScriptPaint.js"></script> 
+<title>RoLearning</title>
+</head>
+<body>
+           <div id="mySidenav" class="tool">
+            <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+            <a href="/">Acasa</a>    
+            <a href="/catalog">Catalog</a>
+            <a href="/orar">Orar</a>
+            <a href="/tabla">Tabla</a>
+            <a href='/materiale'>Materiale</a>
+            <a href="/recenzii">Recenzii</a>
+            
+            <p class="j">&nbsp;</p>
+            <hr>
+            <button onclick="window.location.href='/login'" class="button">Log In</button>
+            <button onclick="window.location.href='/signup'" class="button">Sign up</button>
+
+            <!-- Open Navigation -->
+            <dl class="sigla"id="sigla">
+                <dd class="s">
+                    <p>Ro<span style="color: white">Learning</span></p>
+                </dd>
+                <dd class="st">
+                    <span onclick="openNav()">&#9776;</span>
+                </dd>
+                <dd class="d">
+                    <p>"If you want to reach the stars, you have to detach yourself from the earth."</p>
+                </dd>
+            </dl>
+        </div>
+   
+	<script src = "index.js"></script>
+	<br /><br /><br /><br /><br /><br />
+    <div id = "ceva">
+	    <main id = "main" >
+      <div class="left-block" id = "left">
+        <div class="colors">
+          <button type="button" value="#0000ff"></button>
+          <button type="button" value="#009fff"></button>
+          <button type="button" value="#0fffff"></button>
+          <button type="button" value="#bfffff"></button>
+          <button type="button" value="#000000"></button>
+          <button type="button" value="#333333"></button>
+          <button type="button" value="#666666"></button>
+          <button type="button" value="#999999"></button>
+          <button type="button" value="#ffcc66"></button>
+          <button type="button" value="#ffcc00"></button>
+          <button type="button" value="#ffff00"></button>
+          <button type="button" value="#ffff99"></button>
+          <button type="button" value="#003300"></button>
+          <button type="button" value="#555000"></button>
+          <button type="button" value="#00ff00"></button>
+          <button type="button" value="#99ff99"></button>
+          <button type="button" value="#f00000"></button>
+          <button type="button" value="#ff6600"></button>
+          <button type="button" value="#ff9933"></button>
+          <button type="button" value="#f5deb3"></button>
+          <button type="button" value="#330000"></button>
+          <button type="button" value="#663300"></button>
+          <button type="button" value="#cc6600"></button>
+          <button type="button" value="#deb887"></button>
+          <button type="button" value="#aa0fff"></button>
+          <button type="button" value="#cc66cc"></button>
+          <button type="button" value="#ff66ff"></button>
+          <button type="button" value="#ff99ff"></button>
+          <button type="button" value="#e8c4e8"></button>
+          <button type="button" value="#FCDFFF"></button>
+        
+          <button type="button" value="#781F1E"></button>
+          <button type="button" value="#005201"></button>
+          <button type="button" value="#583759"></button>
+          <button type="button" value="#7F5217"></button>
+          <button type="button" value="#ffffff"></button>
+          <button type="button" value="#ffffff"></button>
+        </div>
+        <div class="brushes">
+          <button type="button" value="1"></button>
+          <button type="button" value="2"></button>
+          <button type="button" value="3"></button>
+          <button type="button" value="4"></button>
+          <button type="button" value="5"></button>
+          <button type="button" value="10"></button>
+          <button type="button" value="50"></button>
+        </div>
+        <div class="buttons">
+          <button id="clear" type="button">Clear</button>
+          <button id="save" type="button">Save</button>
+        </div>
+      </div>
+      <div class="right-block" id = "personal">
+        <canvas id="paint-canvas" width="1000" height="500"></canvas>
+            </div>
+            </main>
+    </div>
+  <script src="myScriptPaint.js"></script>
+
+</body>
+</html>

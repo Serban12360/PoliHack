@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Mrs+Sheppards&display=swap" rel="stylesheet">
+        <script src="myScript.js"></script>
+        <title>RoLearning</title>
+    </head>
+    
+    <body>
+        
+        <!-- Navigation -->
+        
+        <div id="mySidenav" class="tool">
+            <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+            <a href="#">Acasa</a>
+            <a href="/catalog">Catalog</a>
+            <a href="/orar">Orar</a>
+            <a href="/tabla">Tabla</a>
+            <a href="/materiale">Materiale</a>
+            <a href="/recenzii">Recenzii</a>
+            <p class="j">&nbsp;</p>
+            <hr>
+           <button onclick="window.location.href='/login'" id='log_in' class="button" >Log In</button>
+            <button onclick="window.location.href='/signup'" id='sign_up'class="button" style="width:auto;">Sign up</button>
+            <button onclick='logout()' id='logout' class='button'>Log Out</button>
+            <!-- Open Navigation -->
+            <dl class="sigla"id="sigla">
+                <dd class="s">
+                    <p>Ro<span style="color: white">Learning</span></p>
+                </dd>
+                <dd class="st">
+                    <span onclick="openNav()">&#9776;</span>
+                </dd>
+                <dd class="d">
+                    <p id='e'></p>
+                </dd>
+            </dl>
+        </div>
+        
+        <div id="main" class="div">    
+</head>
+<body>
+                
+            <!-- Image Slider -->
+                <div class="slideshow-container" id="img">
+                     
+                    <div class="mySlides">
+                        <img src="1.jpg" class="img">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="2.jpg" class="img">
+                        <h3 class="text" id="text">Calitate sau Cantitate?</h3>
+                        <h3 class="text" id="t">Avem nevoie de eficienta pentru a rezolva lucrurile.</h3>
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="3.jpg" class="img">
+                        <h3 class="text" id="text">Un click distanta.</h3>
+                        <h3 class="text" id="t">Niciodata nu a fost mai usor ca acum.</h3>
+                    </div>
+                </div>
+
+
+            <!-- Buttons slider -->
+                <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                </div>
+                <script src="myScript.js"></script>
+            
+            <!-- Whitebox -->
+            <div class="casuta" id="casuta">
+                <br>
+                <h1 class="f" id="cas"> Functii de prima clasa </h1>
+                <p class="p">Aceasta este o oportunitate a invatamantului romanesc, a profesorilor de a-si simplifica munca propie, dar si cea a elevilor.</p>
+                <p class="p">"Cerul este limita" sau mai bine zis "Pixeli sunt limita".</p>
+                <br>
+                <br>
+            </div>
+            
+            <!-- Columns -->
+            <div class="dupa" id="col">
+                <div class="col">
+                    <img src="6.png" style="height: 90px; padding: 50px;">
+                    <p class="w">Nu stii ce note ai? Acceseaza catalogul creat de profesorul tau si afla.</p>
+                </div>
+                
+                <div class="col">
+                    <img src="4.png" style="height: 90px; padding: 50px;">
+                    <p class="w">Off... Iar nu ai orarul pentru elevii tai si acestea nu au intrat la ora? Este momentul potrivit sa-l scrii.</p>
+                </div>
+                
+                <div class="col">
+                    <img src="5.png" style="height: 90px; padding: 50px;">
+                    <p class="w">Prea pixelat.. mai bine deseneaza.</p>
+                </div>
+            </div>
+            <div id="ph">
+                <hr style="color:#737373;">
+                <h2 style="color: white">Contactati-ne.</h2>
+                <div>
+                    <a href = "#" style="padding: 2px;"><img src="7.png"></a>
+                    <a href = "#" style="padding: 2px;"><img src="8.png"></a>
+                    <a href = "#" style="padding: 2px;"><img src="9.png"></a>
+                    <a href = "#" style="padding: 2px;"><img src="10.png"></a>
+                </div>
+                <br>
+            </div>
+           
+        
+    </div>
+        </div>
+
+ 
+    </body>
+</html>

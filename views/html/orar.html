@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="mystyle1.css">
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Mrs+Sheppards&display=swap" rel="stylesheet">
+        
+        <!-- JavaScript -->
+        <script src="MyScript3.js"></script>
+        <title>RoLearning</title>
+    </head>
+    
+    <body>
+
+        <div id="mySidenav" class="tool">
+            <!-- Navigation -->
+            <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+            <a href="/">Acasa</a>
+            <a href="/catalog">Catalog</a>
+            <a href="#">Orar</a>
+            <a href="/tabla">Tabla</a>
+            <a href="/materiale">Materiale</a>
+            <a href="/recenzii">Recenzii</a>
+            <p class="j">&nbsp;</p>
+            <hr>
+            <button onclick="window.location.href='/login'" class="button">Log In</button>
+            <button onclick="window.location.href='/signup'" class="button">Sign Up</button>
+
+            <!-- Open Navigation -->
+            <dl class="sigla"id="sigla">
+                <dd class="s">
+                    <p>Ro<span style="color: white">Learning</span></p>
+                </dd>
+                <dd class="st">
+                    <span onclick="openNav()">&#9776;</span>
+                </dd>
+                <dd class="d">
+                    <p>"Daca vrei sa ajungi ajungi la stele, trebuie sa te desprinzi de pamant"</p>
+                </dd>
+            </dl>
+        </div>
+        
+        <div id="main" class="div">
+            <script>
+
+function functionOn() {
+  var x = document.designMode = "On";
+  document.getElementById("demo").innerHTML = x;
+}
+function functionOff() {
+  var x = document.designMode = "Off";
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+            <div style="text-align:center;" id="col">
+                <h2 class="t">Orarul</h2>
+            </div>
+
+            <table>
+                <tr id="a">
+                    <th>Ora/zi</th>
+                    <th>Luni</th>
+                    <th>Marti</th>
+                    <th>Miercuri</th>
+                    <th>Joi</th>
+                    <th>Vineri</th>  
+                </tr>
+                <tr id="b">
+                    <th>08:00-08:50</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr id="c">
+                    <th>09:00-09:50</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr id="d">
+                    <th>10:00-10:50</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr id="e">
+                    <th>11:00-11:50</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr id="f">
+                    <th>12:00-12:50</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr id="g">
+                    <th>13:00-13:50</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </table>
+            <br>
+            <button class="buton" onclick="functionOn()" id="h">Modificati</button>
+            <button class="buton" onclick="functionOff()" id="i">Salvati</button>
+            <script src="MyScript3.js"></script>
+        </div>
+    </body>
+</html>

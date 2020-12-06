@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<link rel="stylesheet" href="catalog.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="catalog.js"></script>
+    <title>RoLearning</title>
+
+<body>
+	 <div id="mySidenav" class="tool">
+            <a href="javascript:void(0)" id='close' class="close" onclick="closeNav()">&times;</a>
+            <a href="/">Acasa</a>
+            <a href="#">Catalog</a>
+            <a href="/orar">Orar</a>
+            <a href="/tabla">Tabla</a>
+            <a href='/materiale'>Materiale</a>
+            <a href="/recenzii">Recenzii</a>
+            <p class="j">&nbsp;</p>
+            <hr>
+            <button onclick="window.location.href='/login'" class="button">Log In</button>
+            <button onclick="window.location.href='/signup'" class="button">Sign up</button>
+
+            <!-- Open Navigation -->
+            <dl class="sigla"id="sigla">
+                <dd class="s">
+                    <p>Ro<span style="color: white">Learning</span></p>
+                </dd>
+                <dd class="st">
+                    <span id='open'>&#9776;</span>
+                </dd>
+                <dd class="d" id='d'>
+                    <p>"Daca vrei sa ajungi ajungi la stele, trebuie sa te desprinzi de pamant"</p>
+                </dd>
+            </dl>
+        </div>
+        
+<div id='main'>
+	<div id='numeCatalog' class='ascuns'>
+		<p id='text'>Introdu numele catalogului:</p>
+		<input type='text' id='clasa' required/>
+		<button id='butonGata' class='btn'> Gata</button>
+	</div>
+	
+	<button id='add' class='btn'>Catalog nou</button>
+</div>
+</body>
+
+</html>

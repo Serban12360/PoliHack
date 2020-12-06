@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="mystyle1.css">
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Mrs+Sheppards&display=swap" rel="stylesheet">
+        
+        <!-- JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script src="MyScript5.js"></script>
+        <title>RoLearning</title>
+    </head>
+    
+    <body>
+        
+        <div id="mySidenav" class="tool">
+            <!-- Navigation -->
+            <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+            <a href="/">Acasa</a>
+            <a href="/catalog">Catalog</a>
+            <a href="/orar">Orar</a>
+            <a href="/tabla">Tabla</a>
+            <a href="/materiale">Materiale</a>
+            <a href="/recenzii">Recenzii</a>
+            <p class="j">&nbsp;</p>
+            <hr>
+            <button onclick="window.location.href='/login'" class="button">Log In</button>
+            <button onclick="window.location.href='/signup'" class="button">Sign up</button>
+
+            <!-- Open Navigation -->
+            <dl class="sigla"id="sigla">
+                <dd class="s">
+                    <p>Ro<span style="color: white">Learning</span></p>
+                </dd>
+                <dd class="st">
+                    <span onclick="openNav()">&#9776;</span>
+                </dd>
+                <dd class="d">
+                    <p>"Daca vrei sa ajungi ajungi la stele, trebuie sa te desprinzi de pamant"</p>
+                </dd>
+            </dl>
+        </div>
+        
+        <div id="main" class="div"> 
+            
+            <!-- Messages -->
+            
+            <h1 class="t" id="tex1">Impartaseste-ne opinita ta</h1>
+
+            <div id="friends">
+                <h2>Comentarii</h2>
+                <p><span2>0</span2> comentarii</p>
+                <input type="text" placeholder="New Message"/>
+                <button id="add">Adauga</button>
+            </div>
+            <h1 class="b" id="tex">Toate comentariile</h1>
+            <ol id="mylist"></ol>
+            
+           <script src="MyScript2.js"></script>
+           <script src="MyScript5.js"></script>
+        </div>
+    </body>
+</html>

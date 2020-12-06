@@ -1,0 +1,18 @@
+td{
+	text-align: center;
+	border:1px solid black;
+	width:200px;
+	padding:0px 30px;
+}
+body{
+	overflow-x: auto;
+}
+.btn{
+	color:white;
+	background-color:#781F1E;
+	margin:20px;
+}
+.btn:hover{
+	border:1px solid white;
+
+}

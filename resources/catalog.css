@@ -1,0 +1,171 @@
+.tool{
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1;
+    background-color: #781F1E;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.tool a{
+    text-decoration: none;
+    display: block;
+    color:#FFFFFF;
+    transition: 0.3s;
+    padding: 18px 8px 8px 32px;
+    font-size: 20px;
+}
+.tool a:hover{
+    color: #737373;
+    text-decoration:underline;
+}
+.tool .j{
+    height: 18%;
+}
+.tool .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.tool .close:hover {
+  text-decoration:none;
+}
+
+.button {
+  background-color: #781F1E;
+  color: white;
+  float:left;
+  font-size: 15px;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 30px;
+  margin:0;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.8;
+  color: #737373;
+  text-decoration:underline;
+}
+
+/* Open Navigation */
+#sigla{
+  transition: margin-left .5s;
+}
+.sigla{
+    margin: 0;
+    top:0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    background-color:grey;
+}
+.s{
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    float:left;
+    font-weight: 900;
+    font-size: 28px;
+    background-color: #737373;
+}
+.st{
+    padding-top: 28px;
+    padding-left: 20px;
+    margin: 0;
+    float:left;
+    font-size:30px;
+    cursor:pointer; 
+}
+.d{
+    color:white;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-family: 'Mrs Sheppards', cursive;
+    font-size: 20px;
+
+}
+#main {
+  transition: margin-left .5s;
+}
+
+
+
+#add{
+  color:white;
+  width:150px;
+  background-color:#781F1E;
+  margin:200px 40px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  display:inline-block;
+  float:left;
+}
+#add:hover{
+  border:1px solid black;
+}
+#numeCatalog{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -49%);
+  border: 2px solid black;
+  border-radius:5px;
+  width:300px;
+  height:150px;
+  background-color:#F5F5F5;
+}
+#clasa{
+  margin:0px 55px;
+}
+#text{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:15px;
+  margin:10px 10px;
+  text-align: center;
+}
+#butonGata{
+  color:white;
+   background-color:#781F1E;
+   width:75px;
+   margin: 10px 75px;
+   transform: translate(50%);
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+#butonGata:hover{
+  border:1px solid black;
+}
+.ascuns{
+  display:none;
+}
+.catalog{
+  border:1px solid black;
+  border-radius:5px;
+  background-color:#F5F5F5;
+  width:200px;
+  height:300px;
+  margin:100px 20px;
+  display: inline-block;
+  font-size: 15px;
+  
+}
+#titlu_catalog{
+  text-align: center;
+  margin-top:45%;
+  font-size:40px;
+}
+.catalog:hover{
+  transform: scale(1.05);
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.x{
+  float:right;
+  margin-right:10px;
+  cursor:pointer;
+}

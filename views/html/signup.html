@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src='signup.js'></script>
+<style>
+	body{
+		background-color:grey;
+	}
+	#fereastra{
+		border:1px solid black;
+		border-radius:5px;
+		height:700px;
+		width:500px;
+		margin-left:50%;
+		transform:translate(-50%);
+		margin-top:50px;
+		margin-bottom:50px;
+		background-color:white;
+	}
+	#titlu{
+		text-align:center;
+		margin-top:20px;
+	}
+	.text{
+		margin-left:20px;
+		margin-top:10px;
+		font-size:15px;
+		margin-bottom:5px;
+	}
+	.input {
+		width:90%;
+		margin-left:5%;
+		height:35px;
+		font-size: 18px;
+	}
+	#parola{
+		margin-top:10px;
+	}
+	#avatar{
+		height:150px;
+		width:150px;
+		border-radius:50%;
+		margin-left:50%;
+		transform:translate(-50%);
+		margin-top:20px;
+	}
+	.btn{
+		width:40%;
+		margin-top:20px;
+		margin-left:25px;
+	}
+	.btn:hover{
+		border:1px solid black;
+	}
+	#signup{
+		background-color:lightgreen;
+	}
+	#cancel{
+		background-color:red;
+		color:white;
+	}
+	.ascuns{
+		display:none;
+	}
+</style>
+	
+
+
+</head>
+
+<body>
+	<div id='fereastra'>
+		<h2 id='titlu'>Sign up</h2>
+		<img id='avatar' src='avatar.png'></img>
+			<p id='nume' class='text'><b>Nume</b></p>
+			<input id='numeInput' class='input' type='text' name='nume' placeholder='Nume'/>
+			<p id='email' class='text'><b>Email</b></p>
+			<input id='emailInput' class='input' type='email' name='email' placeholder='Email'/>
+			<p id='username' class='text'><b>Username</b></p>
+			<input id='usernameInput' class='input' type='text' name='username' placeholder='Username'/>
+			<p id='parola' class='text'><b>Parola</b></p>
+			<input id='passwordInput' class='input' type='password' name='parola' placeholder='Parola'/>
+			<p id='parolaConfirm' class='text'><b>Confirma Parola</b></p>
+			<input id='passwordInputConfirm' class='input' type='password' name='parola' placeholder='Parola'/>
+		<button id='signup' class='btn'>Sign Up</button>
+		<button id='cancel' class='btn' onclick="window.location.href='/'">Cancel</button>
+		
+	</div>
+
+</body>
+
+</html>
